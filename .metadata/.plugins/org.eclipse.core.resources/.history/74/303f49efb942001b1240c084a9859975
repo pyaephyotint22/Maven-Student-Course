@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+</head>
+<body>
+	<div class="container">
+		<jsp:include page="/common/menu.jsp"></jsp:include>
+		<div class="row mt-2 mb-2">
+			<div class="col-10">
+				<h3>All Courses</h3>
+				
+			</div>
+			<div class="col">
+			<c:url value="/course-add.jsp" vale="add"></c:url>
+				<a href="${add}" class="btn btn-primary">Add Course</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="rol">
+			 <table class="table">
+			 	<tr>
+			 			<th>Course Name</th>
+			 			<th>Price</th>
+			 			<th>Level</th>
+			 			<th>Duration</th>
+			 			<th>StartDate</th>
+			 	</tr>
+			 	
+			 	<c:forEach items="${courseList}"></c:forEach>
+			 </table>
+			
+			</div>
+		
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Scope</title>
+</head>
+<body>
+	<h1>Scope Object</h1>
+	<table>
+	<tr>
+		<td>Application Scope</td>
+		<td>
+		<%
+		Counter appCounter=(Counter)application.getAttribute("counter");
+		out.println((appCounter==null)? 0:appCounter.getCount());
+		%>
+		</td>
+	</tr>
+	<tr>
+	<td>Session Scope</td>
+		<td>
+		<%
+		Counter appCounter=(Counter)session.getAttribute("counter");
+		out.println(appCounter==null)? 0:sessionCounter.getCount());
+		%>
+		</td>
+	</tr>
+	<tr>
+	<td>Application Scope</td>
+		<td>
+		<%
+		Counter appCounter=(Counter)application.getAttribute("counter");
+		out.println(appCounter==null)? 0:appCounter.getCount());
+		%>
+		</td>
+	</tr>
+	</table>
+</body>
+</html>

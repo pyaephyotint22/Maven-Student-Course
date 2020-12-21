@@ -1,0 +1,17 @@
+package com.mmit;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/another")
+public class HelloAnotherServlet extends HttpServlet {
+
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+		super.init(config);
+		System.out.println("This is init method");
+		System.out.println("==================");
+	}
+}

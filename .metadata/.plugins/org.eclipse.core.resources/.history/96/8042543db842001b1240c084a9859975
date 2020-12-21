@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+</head>
+<body>
+	<div class="container">
+		<jsp:include page="/common/menu.jsp"></jsp:include>
+		<div class="row">
+			<div class="col">
+				<h3>All Courses</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="rol">
+			 <table class="table">
+			 	<tr>
+			 			<th>Course Name</th>
+			 			<th>Price</th>
+			 			<th>Level</th>
+			 			<th>Duration</th>
+			 			<th>StartDate</th>
+			 	
+			 	
+			 	</tr>
+			 </table>
+			
+			</div>
+		
+		</div>
+	</div>
+</body>
+</html>

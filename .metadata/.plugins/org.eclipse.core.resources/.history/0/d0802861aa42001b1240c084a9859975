@@ -1,0 +1,13 @@
+package com.mmit.entity;
+
+import java.time.LocalDate;
+
+public class Course {
+	
+	private String name;
+	private String level;
+	private int price;
+	private int duration;
+	private LocalDate startDate;
+
+}

@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EL Demo</title>
+</head>
+<body>
+<%
+	 String name=request.getParameter("uname");
+     String email=request.getParameter("email");
+     String address=request.getParameter("address");
+
+%>
+	<form action="">
+		<table>
+				<tr>
+					<td>User Name</td>
+					<td> 
+						<input type="text" name="uname"/>
+					</td>
+					</tr>
+				
+				<tr>
+					<td>Email</td>
+					<td> 
+						<input type="email" name="email"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td> 
+						<input type="text" name="address"/>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> 
+						<button type="submit">Display</button>
+					</td>
+				</tr>
+		</table>
+	</form>
+</body>
+</html>

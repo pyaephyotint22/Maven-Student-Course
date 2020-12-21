@@ -1,0 +1,9 @@
+path=C:\Users\ASUS\.m2\repository\jakarta\servlet\jakarta.servlet-api\4.0.3\jakarta.servlet-api-4.0.3.jar
+size=82872
+archive=0
+path=C:\Users\ASUS\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar
+size=414240
+archive=0
+path=C:\Users\ASUS\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\2.3.6\jakarta.servlet.jsp-api-2.3.6.jar
+size=53683
+archive=0

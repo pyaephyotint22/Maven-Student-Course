@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/ASUS/.m2/repository/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3.jar"/>
+  <path value="C:/Users/ASUS/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/2.3.6/jakarta.servlet.jsp-api-2.3.6.jar"/>
+ </paths>
+ <validation>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>
