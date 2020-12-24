@@ -24,6 +24,7 @@
 	<div class="row">
 		<table class="table border-dark">
 			<tr>
+					<th>Photo</th>
 					<th>Name</th>
 					<th>Email</th>
 					<th>Year</th>
@@ -33,6 +34,9 @@
 			</tr>
 			<c:forEach items="${studentlist }" var="student">
 				<tr>
+					<td>
+					<img src="/06-EL-JSTL/imgUploads/${student.profile}" alt="Image" width="100" height="100"/>
+					</td>
 					<td>${student.name }</td>
 					<td>${student.email }</td>
 					<td>${student.year }</td>

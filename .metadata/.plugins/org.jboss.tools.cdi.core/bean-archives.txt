@@ -1,6 +1,9 @@
 path=C:\Users\ASUS\.m2\repository\jakarta\servlet\jakarta.servlet-api\4.0.3\jakarta.servlet-api-4.0.3.jar
 size=82872
 archive=0
+path=C:\Users\ASUS\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar
+size=1973406
+archive=2
 path=C:\Users\ASUS\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar
 size=414240
 archive=0

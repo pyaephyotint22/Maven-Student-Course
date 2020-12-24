@@ -1,7 +1,0 @@
-package com.mmit.scope;
-
-import javax.servlet.http.HttpServlet;
-
-public class Counter extends HttpServlet {
-
-}

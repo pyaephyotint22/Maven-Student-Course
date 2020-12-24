@@ -24,7 +24,11 @@
 		<div class="col-6 my-2">
 			<hr />
 			<c:url value="/add-student" var="addstudent"></c:url>
-			<form action="${addstudent }" class="form" method="post">
+			<form action="${addstudent }" class="form" method="post"  enctype="multipart/form-data">
+			<div class="form-group">
+					<label> Photo</label>
+					<input type="file" name="photo" required="required" />
+				</div>
 				<div class="form-group">
 					<label> Student Name</label>
 					<input type="text" name="sname" required="required" placeholder="Enter your name" class="form-control" />

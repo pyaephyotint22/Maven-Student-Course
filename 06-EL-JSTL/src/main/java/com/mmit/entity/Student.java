@@ -3,6 +3,7 @@ package com.mmit.entity;
 import java.time.LocalDate;
 
 public class Student {
+	private String profile;
 	private String name;
 	private String email;
 	private int age;
@@ -20,6 +21,12 @@ public class Student {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	public String getProfile() {
+		return profile;
+	}
+	public void setProfile(String profile) {
+		this.profile = profile;
 	}
 	public int getAge() {
 		return age;

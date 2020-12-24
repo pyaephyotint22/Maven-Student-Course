@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Testing Jave EE"/>
 			<item value="D:\Testing Jave EE\02-helloo-servlet"/>
 			<item value="D:\Testing Jave EE\01-helllo-jakata"/>
 		</list>
@@ -50,6 +51,11 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="08-jpa-assignment"/>
+			<item value="08-jap-assignment"/>
+			<item value="you"/>
+			<item value="3334gg"/>
+			<item value="07-servlet-file-upload"/>
 			<item value="06-EL-JSTL"/>
 			<item value="04-jsap-java-bean"/>
 			<item value="03-servlet-scope"/>
@@ -72,8 +78,8 @@
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item key="width" value="480"/>
 		<item key="height" value="667"/>
-		<item key="x" value="731"/>
-		<item key="y" value="61"/>
+		<item key="x" value="1074"/>
+		<item key="y" value="178"/>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 		<list key="ciManagementUrl">
@@ -86,5 +92,11 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="720"/>
+		<item key="y" value="215"/>
 	</section>
 </section>
