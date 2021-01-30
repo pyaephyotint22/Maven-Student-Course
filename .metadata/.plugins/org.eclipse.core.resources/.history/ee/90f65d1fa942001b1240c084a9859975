@@ -1,9 +1,0 @@
-package com.mmit.controller;
-
-import javax.servlet.http.HttpServlet;
-
-public class CourseController extends HttpServlet {
-	
-	
-
-}

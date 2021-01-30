@@ -3,6 +3,7 @@
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="D:\Testing Jave EE"/>
+			<item value="D:\Testing Jave EE\12-jpa-relationship"/>
 			<item value="D:\Testing Jave EE\02-helloo-servlet"/>
 			<item value="D:\Testing Jave EE\01-helllo-jakata"/>
 		</list>
@@ -47,21 +48,26 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="com.mmit.jpit"/>
+			<item value="com.mmit"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="18-jsf-jpa"/>
+			<item value="jsf-maven-project-template"/>
+			<item value="17-jsf-02"/>
+			<item value="16-Hello-Widfly"/>
+			<item value="14-pos-sample"/>
+			<item value="13-jpa-entityRelationship"/>
+			<item value="13-JPA-RS"/>
+			<item value="13-jpa-Relation"/>
+			<item value="12-pos-sample"/>
+			<item value="13-jpa-relationship"/>
+			<item value="12-jpa-relationship"/>
+			<item value="11-jpa-collection"/>
+			<item value="10-em-jsp"/>
+			<item value="09-jpa-em"/>
 			<item value="08-jpa-assignment"/>
-			<item value="08-jap-assignment"/>
-			<item value="you"/>
-			<item value="3334gg"/>
-			<item value="07-servlet-file-upload"/>
-			<item value="06-EL-JSTL"/>
-			<item value="04-jsap-java-bean"/>
-			<item value="03-servlet-scope"/>
-			<item value="02-helloo-servlet"/>
-			<item value="02-hello2-servlet"/>
-			<item value="01-helllo-jakata"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -73,6 +79,7 @@
 		</list>
 		<list key="version">
 			<item value="1.0"/>
+			<item value="1.0 Final"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
@@ -97,6 +104,12 @@
 		<item key="width" value="480"/>
 		<item key="height" value="450"/>
 		<item key="x" value="720"/>
+		<item key="y" value="215"/>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item key="width" value="755"/>
+		<item key="height" value="450"/>
+		<item key="x" value="583"/>
 		<item key="y" value="215"/>
 	</section>
 </section>

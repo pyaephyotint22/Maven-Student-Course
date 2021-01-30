@@ -7,6 +7,7 @@
   <path value="C:/Users/ASUS/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/2.3.6/jakarta.servlet.jsp-api-2.3.6.jar"/>
  </paths>
  <validation>
+  <core validator-id="jsf-verification"/>
   <el/>
  </validation>
  <aliases/>
