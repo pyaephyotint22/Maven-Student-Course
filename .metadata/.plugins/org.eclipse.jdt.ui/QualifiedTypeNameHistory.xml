@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.mmit.online.shop.Item"/>
-    <fullyQualifiedTypeName name="com.mmit.online.shop.Sale"/>
-    <fullyQualifiedTypeName name="com.mmit.online.shop.SaleDetail"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="com.mmit.pos.model.entity.Category"/>
     <fullyQualifiedTypeName name="com.mmit.pos.model.service.CategoryService"/>
     <fullyQualifiedTypeName name="com.mmit.pos.model.service.ItemService"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
@@ -43,21 +37,27 @@
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
-    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
     <fullyQualifiedTypeName name="com.mmit.service.ItemService"/>
-    <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
-    <fullyQualifiedTypeName name="javax.inject.Named"/>
     <fullyQualifiedTypeName name="javax.faces.convert.Converter"/>
     <fullyQualifiedTypeName name="com.mmit.entity.Category"/>
-    <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="com.mmit.service.CategoryService"/>
     <fullyQualifiedTypeName name="javax.enterprise.context.Dependent"/>
     <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
     <fullyQualifiedTypeName name="com.mmit.entity.Item"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.mmit.service.CourseService"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceContexts"/>
+    <fullyQualifiedTypeName name="jdk.jfr.Name"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+    <fullyQualifiedTypeName name="com.mmit.entity.Courses"/>
+    <fullyQualifiedTypeName name="javax.inject.Named"/>
+    <fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.mmit.service.StudentService"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+    <fullyQualifiedTypeName name="com.mmit.entity.Student"/>
 </qualifiedTypeNameHistroy>

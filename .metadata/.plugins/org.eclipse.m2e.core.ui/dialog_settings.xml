@@ -53,8 +53,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="18-jsf-jpa"/>
+			<item value="19-jsf-03-student"/>
 			<item value="jsf-maven-project-template"/>
+			<item value="18-jsf-jpa"/>
 			<item value="17-jsf-02"/>
 			<item value="16-Hello-Widfly"/>
 			<item value="14-pos-sample"/>
@@ -67,7 +68,6 @@
 			<item value="11-jpa-collection"/>
 			<item value="10-em-jsp"/>
 			<item value="09-jpa-em"/>
-			<item value="08-jpa-assignment"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
